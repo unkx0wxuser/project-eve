@@ -519,7 +519,6 @@ function CodeInputView({ user, onCodeUsed, onBack, onNavigateToShop, onNavigateT
         <>
             <h1 className="title">코드 입력</h1>
             <div className="user-info">
-                <h3>환영합니다, {user.name}님!</h3>
                 <div className="chip-display">
                     <span className="chip-label">보유 칩</span>
                     <span className="chip-count">{user.tokens}개</span>
